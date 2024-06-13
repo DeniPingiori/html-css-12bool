@@ -7,6 +7,7 @@
 .container {
     max-width:1200px;
     margin:0 auto;
+    padding-top: 20px;
 }
 
 .row {
@@ -29,6 +30,30 @@
 
 .col-2 {
     flex-basis:calc((100% / 12) * 2);
+    background-color: rgb(12, 188, 237);
+    border: 1px solid #fff;
+    height: 100px;
+    color:white;
+    margin: 10px 0px 5px 5 px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-3 {
+    flex-basis:calc((100% / 12) * 3);
+    background-color: rgb(12, 188, 237);
+    border: 1px solid #fff;
+    height: 100px;
+    color:white;
+    margin: 10px 0px 5px 5 px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-4 {
+    flex-basis:calc((100% / 12) * 4);
     background-color: rgb(12, 188, 237);
     border: 1px solid #fff;
     height: 100px;
@@ -61,8 +86,56 @@
     justify-content: center;
     align-items: center;
 }
+
+.col-7 {
+    flex-basis:calc((100% / 12) * 7);
+    background-color: rgb(12, 188, 237);
+    border: 1px solid #fff;
+    height: 100px;
+    color:white;
+    margin: 10px 0px 5px 5 px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 .col-8 {
     flex-basis:calc((100% / 12) * 8);
+    background-color: rgb(12, 188, 237);
+    border: 1px solid #fff;
+    height: 100px;
+    color:white;
+    margin: 10px 0px 5px 5 px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-9 {
+    flex-basis:calc((100% / 12) * 9);
+    background-color: rgb(12, 188, 237);
+    border: 1px solid #fff;
+    height: 100px;
+    color:white;
+    margin: 10px 0px 5px 5 px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-10 {
+    flex-basis:calc((100% / 12) * 10);
+    background-color: rgb(12, 188, 237);
+    border: 1px solid #fff;
+    height: 100px;
+    color:white;
+    margin: 10px 0px 5px 5 px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-11 {
+    flex-basis:calc((100% / 12) * 11);
     background-color: rgb(12, 188, 237);
     border: 1px solid #fff;
     height: 100px;
